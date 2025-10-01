@@ -40,7 +40,7 @@ namespace Screen_Saver_App
             this.MouseDown += (s, e) => this.Close();
 
 
-            // Загружаем снежинки (несколько png с прозрачностью)
+            // Загружаем снежинки 
             snowImages = new Image[]
             {
                 Image.FromFile(@"C:\C#\Коноплев 4 курс\Screen saver\Snow1.png"),
